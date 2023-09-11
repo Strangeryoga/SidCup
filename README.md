@@ -1,1 +1,1 @@
-"# SidCup" 
+SidCup Family Golf
