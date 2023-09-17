@@ -1,4 +1,5 @@
 {
     "prettier.configPath": "\"workbench.tree.indent\":15,\"workbench.tree.renderIndentGuides\":\"always\",\"workbench.colorCustomizations\":{\"tree.indentGuidesStroke\":\"#05ef3c\"}",
-    "prettier.requireConfig": true
+    "prettier.requireConfig": true,
+    "liveServer.settings.port": 5501
 }

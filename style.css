@@ -14,13 +14,13 @@ html,body{
 
 *::selection{
     background-color: #fff;
-    color: #95C11E;
+    color: orange;
 }
 
 body::-webkit-scrollbar{
     display: block;
     width: 8px;
-    background-color: #95C11E;
+    background-color: orange;
 }
 
 body::-webkit-scrollbar-thumb{
@@ -31,7 +31,7 @@ body::-webkit-scrollbar-thumb{
 #cursor{
     height: 20px;
     width: 20px;
-    background-color: #95C11E;
+    background-color: orange;
     border-radius: 50%;
     position: fixed;
     z-index: 99;
@@ -111,7 +111,7 @@ video{
     color: #000;
     top: -6px;
     left: -6px;
-    -webkit-text-stroke: 2px #95C11E;
+    -webkit-text-stroke: 2px orange;
     z-index: -1;
 
 }
@@ -133,7 +133,7 @@ video{
     height: 200px;
     width: 200px;
     background-color: transparent;
-    border: 2px solid #95C11E;
+    border: 2px solid orange;
     position: absolute;
     display: flex;
     left: -2%;
@@ -151,7 +151,7 @@ video{
 
 #page1 #arrow:hover{
     scale: 0.4;
-    background-color: #95C11E;
+    background-color: orange;
 }
 
 #page2{
@@ -192,11 +192,11 @@ video{
     margin-right: 10px;
     transition: all linear 0.5s;
     color: transparent;
-    -webkit-text-stroke: 2px #95C11E ;
+    -webkit-text-stroke: 2px orange ;
 }
 
 #scroller h4:hover{
-    color: #95C11E;
+    color: orange;
 }
 
 
@@ -286,7 +286,7 @@ video{
 .overlay{
     height: 100%;
     width: 100%;
-    background-color: #95C11E;
+    background-color: orange;
     padding: 30px;
     padding-top: 160px;
     opacity: 0;
@@ -322,7 +322,7 @@ video{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: linear-gradient(to left bottom,#119F3a,#ACE022);
+    background: linear-gradient(to left bottom,#ac760a,#c4990e);
 }
 
 #green-div h4{
@@ -398,7 +398,7 @@ video{
 .ele h2{
     height: 100%;
     width: 100%;
-    background-color: #95C11E;
+    background-color: orange;
     display: flex;
     color: #000;
     font-weight: 800;
@@ -442,8 +442,8 @@ video{
 #footer{
     height: 40vh;
     width: 100%;
-    background: linear-gradient(to left bottom,#119f3a 0%,
-    #a3d421 80%);
+    background: linear-gradient(to left bottom,#9f7711 0%,
+    #d48c21 80%);
     position: relative;
     display: flex;
     align-items: center;

@@ -20,8 +20,8 @@ hall.forEach(function(elem){
 
    elem.addEventListener("mouseleave",function(){
     cr.style.scale=1
-    cr.style.border="0px solid #95C11E"
-    cr.style.backgroundColor="#95C11E"
+    cr.style.border="0px solid #d48c21"
+    cr.style.backgroundColor="#d48c21"
    })
 })
 
