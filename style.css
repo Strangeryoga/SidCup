@@ -500,6 +500,197 @@ video{
     margin-bottom: 8px;
 }
 
+@media only screen and (max-width: 768px) {
+    #nav {
+        padding: 10px;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    #nav img {
+        height: 60px;
+        margin-bottom: 10px;
+    }
+
+    #nav h4 {
+        font-size: 16px;
+        margin: 5px;
+    }
+
+    #cursor {
+        display: none;
+    }
+
+    video {
+        height: 100%;
+    }
+
+    #page1 h1 {
+        font-size: 60px;
+    }
+
+    #page1 h2 {
+        font-size: 20px;
+    }
+
+    #page1 p {
+        font-size: 16px;
+        width: 80%;
+    }
+
+    #nav {
+        display: none;
+    }
+
+    #scroller{
+        /* background-color:  red; */
+        white-space: nowrap;
+        overflow-x: auto;
+        overflow-y: hidden;
+        position: relative;
+        z-index: 10;
+    }
+    #scroller::-webkit-scrollbar{
+        display: none;
+    }
+
+    #scroller-in {
+        display: inline-block;
+        white-space: nowrap;
+        animation-name: scroll;
+        animation-duration: 30s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+    }
+
+    #scroller h4{
+        display: inline-block;
+        font-size: 32px;
+        font-weight: 900;
+        font-family: gilroy;
+        margin-right: 10px;
+        transition: all linear 0.5s;
+        color: transparent;
+        -webkit-text-stroke: 2px orange ;
+    }
+    
+    #scroller h4:hover{
+        color: orange;
+    }
+
+    #scroller-in .less {
+        display: none;
+    }
+
+    #page2 #scroller {
+        white-space: normal;
+        overflow: visible;
+        text-align: center;
+        padding: 20px;
+    }
+
+    #scroller-in {
+        animation: none;
+        margin-bottom: 20px;
+    }
+
+    #about-us {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    #about-us img {
+        height: auto;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #about-us-in {
+        width: 100%;
+        text-align: left;
+    }
+
+    #about-us-in h3 {
+        font-size: 24px;
+    }
+
+    #about-us-in p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .card {
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        height: 30%;
+    }
+    
+    #card2, #card3 {
+        display: none;
+    }
+
+    #green-div h4 {
+        width: 80%;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    #page3 > p {
+        font-size: 18px;
+        line-height: 28px;
+        width: 80%;
+    }
+
+    #page3 img {
+        height: 40px;
+    }
+
+    #page3 #c1,
+    #page3 #c2 {
+        display: none;
+    }
+
+    #page4  {
+        background-color: #000;
+        font-size: 40px;
+        top: -8%;
+        left: 12%;
+    }
+
+    #page4 h1 {
+        background-color: #000;
+        font-size: 14px;
+    }
+
+    .ele {
+        display: none;
+    }
+
+    #footer {
+       display: none;
+    }
+
+    #footer > img {
+        display: none;
+    }
+
+    #f1 img {
+        height: 40px;
+    }
+
+    #f2 h3,
+    #f3 h3 {
+        font-size: 16px;
+    }
+
+    #f4 h4 {
+        font-size: 12px;
+        line-height: 18px;
+    }
+}
 
 
 
